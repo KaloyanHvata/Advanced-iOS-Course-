@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD32EE91BA84AE4002D344C /* Operation1.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD32EE81BA84AE4002D344C /* Operation1.m */; };
+		EFD566FE1BA6AF9E003A7ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD566FD1BA6AF9E003A7ACC /* main.m */; };
+		EFD567011BA6AF9E003A7ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567001BA6AF9E003A7ACC /* AppDelegate.m */; };
+		EFD567071BA6AF9E003A7ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD567051BA6AF9E003A7ACC /* Main.storyboard */; };
+		EFD567091BA6AF9E003A7ACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD567081BA6AF9E003A7ACC /* Images.xcassets */; };
+		EFD5670C1BA6AF9E003A7ACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD5670A1BA6AF9E003A7ACC /* LaunchScreen.xib */; };
+		EFD567181BA6AF9E003A7ACC /* Advanced_iOS_Programming___PracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567171BA6AF9E003A7ACC /* Advanced_iOS_Programming___PracticeTests.m */; };
+		EFD567241BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567231BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m */; };
+		EFD567281BA6FD90003A7ACC /* MultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567271BA6FD90003A7ACC /* MultithreadingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD567121BA6AF9E003A7ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD566F01BA6AF9E003A7ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD566F71BA6AF9E003A7ACC;
+			remoteInfo = "Advanced iOS Programming - Practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD32EE71BA84AE4002D344C /* Operation1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation1.h; sourceTree = "<group>"; };
+		EFD32EE81BA84AE4002D344C /* Operation1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation1.m; sourceTree = "<group>"; };
+		EFD566F81BA6AF9E003A7ACC /* Advanced iOS Programming - Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced iOS Programming - Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD566FC1BA6AF9E003A7ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD566FD1BA6AF9E003A7ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD566FF1BA6AF9E003A7ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD567001BA6AF9E003A7ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD567061BA6AF9E003A7ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD567081BA6AF9E003A7ACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD5670B1BA6AF9E003A7ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFD567111BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced iOS Programming - PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD567161BA6AF9E003A7ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD567171BA6AF9E003A7ACC /* Advanced_iOS_Programming___PracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Advanced_iOS_Programming___PracticeTests.m"; sourceTree = "<group>"; };
+		EFD567221BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedObjCConceptsViewController.h; sourceTree = "<group>"; };
+		EFD567231BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedObjCConceptsViewController.m; sourceTree = "<group>"; };
+		EFD567261BA6FD90003A7ACC /* MultithreadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultithreadingViewController.h; sourceTree = "<group>"; };
+		EFD567271BA6FD90003A7ACC /* MultithreadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultithreadingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD566F51BA6AF9E003A7ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5670E1BA6AF9E003A7ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD32EE61BA84AAB002D344C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EFD32EE71BA84AE4002D344C /* Operation1.h */,
+				EFD32EE81BA84AE4002D344C /* Operation1.m */,
+			);
+			name = Protocols;
+			path = "Advanced iOS Programming - Practice";
+			sourceTree = "<group>";
+		};
+		EFD566EF1BA6AF9E003A7ACC = {
+			isa = PBXGroup;
+			children = (
+				EFD566FA1BA6AF9E003A7ACC /* Advanced iOS Programming - Practice */,
+				EFD32EE61BA84AAB002D344C /* Protocols */,
+				EFD567141BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests */,
+				EFD566F91BA6AF9E003A7ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD566F91BA6AF9E003A7ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD566F81BA6AF9E003A7ACC /* Advanced iOS Programming - Practice.app */,
+				EFD567111BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD566FA1BA6AF9E003A7ACC /* Advanced iOS Programming - Practice */ = {
+			isa = PBXGroup;
+			children = (
+				EFD566FF1BA6AF9E003A7ACC /* AppDelegate.h */,
+				EFD567001BA6AF9E003A7ACC /* AppDelegate.m */,
+				EFD567051BA6AF9E003A7ACC /* Main.storyboard */,
+				EFD567081BA6AF9E003A7ACC /* Images.xcassets */,
+				EFD5670A1BA6AF9E003A7ACC /* LaunchScreen.xib */,
+				EFD567251BA6FD46003A7ACC /* Multithreading */,
+				EFD567211BA6B066003A7ACC /* Advanced Objective - Concepts */,
+				EFD566FB1BA6AF9E003A7ACC /* Supporting Files */,
+			);
+			path = "Advanced iOS Programming - Practice";
+			sourceTree = "<group>";
+		};
+		EFD566FB1BA6AF9E003A7ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD566FC1BA6AF9E003A7ACC /* Info.plist */,
+				EFD566FD1BA6AF9E003A7ACC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD567141BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD567171BA6AF9E003A7ACC /* Advanced_iOS_Programming___PracticeTests.m */,
+				EFD567151BA6AF9E003A7ACC /* Supporting Files */,
+			);
+			path = "Advanced iOS Programming - PracticeTests";
+			sourceTree = "<group>";
+		};
+		EFD567151BA6AF9E003A7ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD567161BA6AF9E003A7ACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD567211BA6B066003A7ACC /* Advanced Objective - Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				EFD567221BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.h */,
+				EFD567231BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m */,
+			);
+			name = "Advanced Objective - Concepts";
+			sourceTree = "<group>";
+		};
+		EFD567251BA6FD46003A7ACC /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				EFD567261BA6FD90003A7ACC /* MultithreadingViewController.h */,
+				EFD567271BA6FD90003A7ACC /* MultithreadingViewController.m */,
+			);
+			name = Multithreading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD566F71BA6AF9E003A7ACC /* Advanced iOS Programming - Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD5671B1BA6AF9E003A7ACC /* Build configuration list for PBXNativeTarget "Advanced iOS Programming - Practice" */;
+			buildPhases = (
+				EFD566F41BA6AF9E003A7ACC /* Sources */,
+				EFD566F51BA6AF9E003A7ACC /* Frameworks */,
+				EFD566F61BA6AF9E003A7ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advanced iOS Programming - Practice";
+			productName = "Advanced iOS Programming - Practice";
+			productReference = EFD566F81BA6AF9E003A7ACC /* Advanced iOS Programming - Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD567101BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD5671E1BA6AF9E003A7ACC /* Build configuration list for PBXNativeTarget "Advanced iOS Programming - PracticeTests" */;
+			buildPhases = (
+				EFD5670D1BA6AF9E003A7ACC /* Sources */,
+				EFD5670E1BA6AF9E003A7ACC /* Frameworks */,
+				EFD5670F1BA6AF9E003A7ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD567131BA6AF9E003A7ACC /* PBXTargetDependency */,
+			);
+			name = "Advanced iOS Programming - PracticeTests";
+			productName = "Advanced iOS Programming - PracticeTests";
+			productReference = EFD567111BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD566F01BA6AF9E003A7ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kaloyan Petrov";
+				TargetAttributes = {
+					EFD566F71BA6AF9E003A7ACC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EFD567101BA6AF9E003A7ACC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EFD566F71BA6AF9E003A7ACC;
+					};
+				};
+			};
+			buildConfigurationList = EFD566F31BA6AF9E003A7ACC /* Build configuration list for PBXProject "Advanced iOS Programming - Practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD566EF1BA6AF9E003A7ACC;
+			productRefGroup = EFD566F91BA6AF9E003A7ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD566F71BA6AF9E003A7ACC /* Advanced iOS Programming - Practice */,
+				EFD567101BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD566F61BA6AF9E003A7ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD567071BA6AF9E003A7ACC /* Main.storyboard in Resources */,
+				EFD5670C1BA6AF9E003A7ACC /* LaunchScreen.xib in Resources */,
+				EFD567091BA6AF9E003A7ACC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5670F1BA6AF9E003A7ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD566F41BA6AF9E003A7ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD567011BA6AF9E003A7ACC /* AppDelegate.m in Sources */,
+				EFD567281BA6FD90003A7ACC /* MultithreadingViewController.m in Sources */,
+				EFD32EE91BA84AE4002D344C /* Operation1.m in Sources */,
+				EFD566FE1BA6AF9E003A7ACC /* main.m in Sources */,
+				EFD567241BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5670D1BA6AF9E003A7ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD567181BA6AF9E003A7ACC /* Advanced_iOS_Programming___PracticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD567131BA6AF9E003A7ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD566F71BA6AF9E003A7ACC /* Advanced iOS Programming - Practice */;
+			targetProxy = EFD567121BA6AF9E003A7ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD567051BA6AF9E003A7ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD567061BA6AF9E003A7ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD5670A1BA6AF9E003A7ACC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD5670B1BA6AF9E003A7ACC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD567191BA6AF9E003A7ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD5671A1BA6AF9E003A7ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD5671C1BA6AF9E003A7ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advanced iOS Programming - Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD5671D1BA6AF9E003A7ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advanced iOS Programming - Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD5671F1BA6AF9E003A7ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Advanced iOS Programming - PracticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced iOS Programming - Practice.app/Advanced iOS Programming - Practice";
+			};
+			name = Debug;
+		};
+		EFD567201BA6AF9E003A7ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Advanced iOS Programming - PracticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced iOS Programming - Practice.app/Advanced iOS Programming - Practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD566F31BA6AF9E003A7ACC /* Build configuration list for PBXProject "Advanced iOS Programming - Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD567191BA6AF9E003A7ACC /* Debug */,
+				EFD5671A1BA6AF9E003A7ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD5671B1BA6AF9E003A7ACC /* Build configuration list for PBXNativeTarget "Advanced iOS Programming - Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5671C1BA6AF9E003A7ACC /* Debug */,
+				EFD5671D1BA6AF9E003A7ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD5671E1BA6AF9E003A7ACC /* Build configuration list for PBXNativeTarget "Advanced iOS Programming - PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5671F1BA6AF9E003A7ACC /* Debug */,
+				EFD567201BA6AF9E003A7ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD566F01BA6AF9E003A7ACC /* Project object */;
+}
