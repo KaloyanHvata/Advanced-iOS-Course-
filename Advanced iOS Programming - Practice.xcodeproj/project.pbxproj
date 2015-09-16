@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0AFC2C1BA9639400BC6906 /* BlockNSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0AFC2B1BA9639400BC6906 /* BlockNSOperationQueueViewController.m */; };
+		EF0AFC301BA97A9F00BC6906 /* ShakeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0AFC2F1BA97A9F00BC6906 /* ShakeDemoViewController.m */; };
+		EF0AFC321BA9952000BC6906 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0AFC311BA9952000BC6906 /* CoreMotion.framework */; };
+		EF0AFC361BA995F100BC6906 /* Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0AFC351BA995F100BC6906 /* Motion.m */; };
+		EF0AFC391BA99C6A00BC6906 /* CoreMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0AFC381BA99C6A00BC6906 /* CoreMotionViewController.m */; };
+		EF0AFC3B1BA99F9600BC6906 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0AFC3A1BA99F9600BC6906 /* CoreLocation.framework */; };
+		EF0AFC3E1BA99FD600BC6906 /* CoreLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0AFC3D1BA99FD600BC6906 /* CoreLocationViewController.m */; };
 		EFD32EE91BA84AE4002D344C /* Operation1.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD32EE81BA84AE4002D344C /* Operation1.m */; };
 		EFD566FE1BA6AF9E003A7ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD566FD1BA6AF9E003A7ACC /* main.m */; };
 		EFD567011BA6AF9E003A7ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567001BA6AF9E003A7ACC /* AppDelegate.m */; };
@@ -29,6 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF0AFC2A1BA9639400BC6906 /* BlockNSOperationQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockNSOperationQueueViewController.h; sourceTree = "<group>"; };
+		EF0AFC2B1BA9639400BC6906 /* BlockNSOperationQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockNSOperationQueueViewController.m; sourceTree = "<group>"; };
+		EF0AFC2E1BA97A9F00BC6906 /* ShakeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeDemoViewController.h; sourceTree = "<group>"; };
+		EF0AFC2F1BA97A9F00BC6906 /* ShakeDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeDemoViewController.m; sourceTree = "<group>"; };
+		EF0AFC311BA9952000BC6906 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EF0AFC341BA995F100BC6906 /* Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Motion.h; sourceTree = "<group>"; };
+		EF0AFC351BA995F100BC6906 /* Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Motion.m; sourceTree = "<group>"; };
+		EF0AFC371BA99C6A00BC6906 /* CoreMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMotionViewController.h; sourceTree = "<group>"; };
+		EF0AFC381BA99C6A00BC6906 /* CoreMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMotionViewController.m; sourceTree = "<group>"; };
+		EF0AFC3A1BA99F9600BC6906 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF0AFC3C1BA99FD600BC6906 /* CoreLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationViewController.h; sourceTree = "<group>"; };
+		EF0AFC3D1BA99FD600BC6906 /* CoreLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationViewController.m; sourceTree = "<group>"; };
 		EFD32EE71BA84AE4002D344C /* Operation1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation1.h; sourceTree = "<group>"; };
 		EFD32EE81BA84AE4002D344C /* Operation1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation1.m; sourceTree = "<group>"; };
 		EFD566F81BA6AF9E003A7ACC /* Advanced iOS Programming - Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced iOS Programming - Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0AFC3B1BA99F9600BC6906 /* CoreLocation.framework in Frameworks */,
+				EF0AFC321BA9952000BC6906 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,21 +87,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF0AFC2D1BA9787200BC6906 /* Motion and Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				EF0AFC2E1BA97A9F00BC6906 /* ShakeDemoViewController.h */,
+				EF0AFC2F1BA97A9F00BC6906 /* ShakeDemoViewController.m */,
+				EF0AFC371BA99C6A00BC6906 /* CoreMotionViewController.h */,
+				EF0AFC381BA99C6A00BC6906 /* CoreMotionViewController.m */,
+				EF0AFC3C1BA99FD600BC6906 /* CoreLocationViewController.h */,
+				EF0AFC3D1BA99FD600BC6906 /* CoreLocationViewController.m */,
+			);
+			name = "Motion and Sensors";
+			sourceTree = "<group>";
+		};
+		EF0AFC331BA9952800BC6906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0AFC3A1BA99F9600BC6906 /* CoreLocation.framework */,
+				EF0AFC311BA9952000BC6906 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF0AFC3F1BA9AC4F00BC6906 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFD32EE61BA84AAB002D344C /* Protocols */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		EFD32EE61BA84AAB002D344C /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				EF0AFC341BA995F100BC6906 /* Motion.h */,
+				EF0AFC351BA995F100BC6906 /* Motion.m */,
 				EFD32EE71BA84AE4002D344C /* Operation1.h */,
 				EFD32EE81BA84AE4002D344C /* Operation1.m */,
 			);
 			name = Protocols;
-			path = "Advanced iOS Programming - Practice";
 			sourceTree = "<group>";
 		};
 		EFD566EF1BA6AF9E003A7ACC = {
 			isa = PBXGroup;
 			children = (
+				EF0AFC331BA9952800BC6906 /* Frameworks */,
 				EFD566FA1BA6AF9E003A7ACC /* Advanced iOS Programming - Practice */,
-				EFD32EE61BA84AAB002D344C /* Protocols */,
 				EFD567141BA6AF9E003A7ACC /* Advanced iOS Programming - PracticeTests */,
 				EFD566F91BA6AF9E003A7ACC /* Products */,
 			);
@@ -103,6 +155,8 @@
 				EFD567051BA6AF9E003A7ACC /* Main.storyboard */,
 				EFD567081BA6AF9E003A7ACC /* Images.xcassets */,
 				EFD5670A1BA6AF9E003A7ACC /* LaunchScreen.xib */,
+				EF0AFC3F1BA9AC4F00BC6906 /* Classes */,
+				EF0AFC2D1BA9787200BC6906 /* Motion and Sensors */,
 				EFD567251BA6FD46003A7ACC /* Multithreading */,
 				EFD567211BA6B066003A7ACC /* Advanced Objective - Concepts */,
 				EFD566FB1BA6AF9E003A7ACC /* Supporting Files */,
@@ -150,6 +204,8 @@
 			children = (
 				EFD567261BA6FD90003A7ACC /* MultithreadingViewController.h */,
 				EFD567271BA6FD90003A7ACC /* MultithreadingViewController.m */,
+				EF0AFC2A1BA9639400BC6906 /* BlockNSOperationQueueViewController.h */,
+				EF0AFC2B1BA9639400BC6906 /* BlockNSOperationQueueViewController.m */,
 			);
 			name = Multithreading;
 			sourceTree = "<group>";
@@ -255,10 +311,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD567011BA6AF9E003A7ACC /* AppDelegate.m in Sources */,
+				EF0AFC361BA995F100BC6906 /* Motion.m in Sources */,
 				EFD567281BA6FD90003A7ACC /* MultithreadingViewController.m in Sources */,
 				EFD32EE91BA84AE4002D344C /* Operation1.m in Sources */,
+				EF0AFC3E1BA99FD600BC6906 /* CoreLocationViewController.m in Sources */,
+				EF0AFC2C1BA9639400BC6906 /* BlockNSOperationQueueViewController.m in Sources */,
 				EFD566FE1BA6AF9E003A7ACC /* main.m in Sources */,
+				EF0AFC301BA97A9F00BC6906 /* ShakeDemoViewController.m in Sources */,
 				EFD567241BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m in Sources */,
+				EF0AFC391BA99C6A00BC6906 /* CoreMotionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
