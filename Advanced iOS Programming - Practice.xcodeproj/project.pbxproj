@@ -23,6 +23,12 @@
 		EFD567181BA6AF9E003A7ACC /* Advanced_iOS_Programming___PracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567171BA6AF9E003A7ACC /* Advanced_iOS_Programming___PracticeTests.m */; };
 		EFD567241BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567231BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m */; };
 		EFD567281BA6FD90003A7ACC /* MultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD567271BA6FD90003A7ACC /* MultithreadingViewController.m */; };
+		EFD6867D1BAABB3500BA4E19 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6867C1BAABB3500BA4E19 /* Circle.m */; };
+		EFD686801BAABB4500BA4E19 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6867F1BAABB4500BA4E19 /* Triangle.m */; };
+		EFD686841BAABBFD00BA4E19 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD686831BAABBFD00BA4E19 /* BasicAnimationViewController.m */; };
+		EFD686861BAABD5B00BA4E19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD686851BAABD5B00BA4E19 /* CoreGraphics.framework */; };
+		EFD686891BAACE2100BA4E19 /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD686881BAACE2100BA4E19 /* CoreAnimationViewController.m */; };
+		EFD6868B1BAAE32100BA4E19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD6868A1BAAE32100BA4E19 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,16 @@
 		EFD567231BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedObjCConceptsViewController.m; sourceTree = "<group>"; };
 		EFD567261BA6FD90003A7ACC /* MultithreadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultithreadingViewController.h; sourceTree = "<group>"; };
 		EFD567271BA6FD90003A7ACC /* MultithreadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultithreadingViewController.m; sourceTree = "<group>"; };
+		EFD6867B1BAABB3500BA4E19 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		EFD6867C1BAABB3500BA4E19 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		EFD6867E1BAABB4500BA4E19 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		EFD6867F1BAABB4500BA4E19 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		EFD686821BAABBFD00BA4E19 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		EFD686831BAABBFD00BA4E19 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
+		EFD686851BAABD5B00BA4E19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFD686871BAACE2100BA4E19 /* CoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationViewController.h; sourceTree = "<group>"; };
+		EFD686881BAACE2100BA4E19 /* CoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
+		EFD6868A1BAAE32100BA4E19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD6868B1BAAE32100BA4E19 /* QuartzCore.framework in Frameworks */,
+				EFD686861BAABD5B00BA4E19 /* CoreGraphics.framework in Frameworks */,
 				EF0AFC3B1BA99F9600BC6906 /* CoreLocation.framework in Frameworks */,
 				EF0AFC321BA9952000BC6906 /* CoreMotion.framework in Frameworks */,
 			);
@@ -103,6 +121,8 @@
 		EF0AFC331BA9952800BC6906 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFD6868A1BAAE32100BA4E19 /* QuartzCore.framework */,
+				EFD686851BAABD5B00BA4E19 /* CoreGraphics.framework */,
 				EF0AFC3A1BA99F9600BC6906 /* CoreLocation.framework */,
 				EF0AFC311BA9952000BC6906 /* CoreMotion.framework */,
 			);
@@ -113,6 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				EFD32EE61BA84AAB002D344C /* Protocols */,
+				EFD6867B1BAABB3500BA4E19 /* Circle.h */,
+				EFD6867C1BAABB3500BA4E19 /* Circle.m */,
+				EFD6867E1BAABB4500BA4E19 /* Triangle.h */,
+				EFD6867F1BAABB4500BA4E19 /* Triangle.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -155,6 +179,7 @@
 				EFD567051BA6AF9E003A7ACC /* Main.storyboard */,
 				EFD567081BA6AF9E003A7ACC /* Images.xcassets */,
 				EFD5670A1BA6AF9E003A7ACC /* LaunchScreen.xib */,
+				EFD686811BAABBC200BA4E19 /* Animation */,
 				EF0AFC3F1BA9AC4F00BC6906 /* Classes */,
 				EF0AFC2D1BA9787200BC6906 /* Motion and Sensors */,
 				EFD567251BA6FD46003A7ACC /* Multithreading */,
@@ -208,6 +233,17 @@
 				EF0AFC2B1BA9639400BC6906 /* BlockNSOperationQueueViewController.m */,
 			);
 			name = Multithreading;
+			sourceTree = "<group>";
+		};
+		EFD686811BAABBC200BA4E19 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				EFD686821BAABBFD00BA4E19 /* BasicAnimationViewController.h */,
+				EFD686831BAABBFD00BA4E19 /* BasicAnimationViewController.m */,
+				EFD686871BAACE2100BA4E19 /* CoreAnimationViewController.h */,
+				EFD686881BAACE2100BA4E19 /* CoreAnimationViewController.m */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,15 +347,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD567011BA6AF9E003A7ACC /* AppDelegate.m in Sources */,
+				EFD6867D1BAABB3500BA4E19 /* Circle.m in Sources */,
 				EF0AFC361BA995F100BC6906 /* Motion.m in Sources */,
 				EFD567281BA6FD90003A7ACC /* MultithreadingViewController.m in Sources */,
 				EFD32EE91BA84AE4002D344C /* Operation1.m in Sources */,
 				EF0AFC3E1BA99FD600BC6906 /* CoreLocationViewController.m in Sources */,
+				EFD686891BAACE2100BA4E19 /* CoreAnimationViewController.m in Sources */,
 				EF0AFC2C1BA9639400BC6906 /* BlockNSOperationQueueViewController.m in Sources */,
+				EFD686841BAABBFD00BA4E19 /* BasicAnimationViewController.m in Sources */,
 				EFD566FE1BA6AF9E003A7ACC /* main.m in Sources */,
 				EF0AFC301BA97A9F00BC6906 /* ShakeDemoViewController.m in Sources */,
 				EFD567241BA6B0FD003A7ACC /* AdvancedObjCConceptsViewController.m in Sources */,
 				EF0AFC391BA99C6A00BC6906 /* CoreMotionViewController.m in Sources */,
+				EFD686801BAABB4500BA4E19 /* Triangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
